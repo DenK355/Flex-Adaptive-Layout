@@ -8,38 +8,61 @@
     <title>Flex Adaptive</title>
 </head>
 <body>
-    
+
     <header>
 
-        <h1>Welcome to Acme Web Solutions</h1>
+        <div class="bg-pixel">
 
-        <p>
-            
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.
+        </div>
 
-        </p>
+        <div class="content">
 
-        <a href="#">Read More</a>
+            <h1>Welcome to Acme Web Solutions</h1>
+
+            <p>
+                    
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.
+
+            </p>
+
+            <a href="#sect-B">Read More</a>
+
+        </div>
+        
 
     </header>
 
-    <section>
+    <section class="sect-A">
 
-        <h2>Web & Application Development</h2>
+        <div class="content">
 
-        <p>
-            
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio, vero dolores dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi animi totam, accusantium, ex eius quia, natus quo?
+            <h2>Web & Application Development</h2>
 
-        </p>
+            <p>
+                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cum, obcaecati reprehenderit libero quos quo magnam quas? Repudiandae, iure sapiente eos laborum, consequatur ducimus perferendis molestias, ratione asperiores aliquid veniam.
+    
+            </p>
+    
+        </div>
 
     </section>
 
-    <section>
+    <section id="sect-B">
 
         <div>
 
-            <img src="" alt="">
+            <picture>
+
+                <source media="(max-width: 700px)" 
+                srcset="./static/images/web-dev-small.jpeg"
+                >
+
+               <img src="./static/images/web-dev.jpeg" alt="Web Developer"> 
+
+            </picture>
+
+            
 
             <h3>Web Development</h3>
             
@@ -53,7 +76,15 @@
 
         <div>
 
-            <img src="" alt="">
+            <picture>
+
+                <source media="(max-width: 700px)" 
+                srcset="./static/images/mobile-app-small.jpeg"
+                >
+
+                <img src="./static/images/mobile-app.jpeg" alt="Phone">
+
+            </picture>
 
             <h3>Mobile Applications</h3>
             
@@ -67,7 +98,15 @@
 
         <div>
 
-            <img src="" alt="">
+            <picture>
+
+                <source media="(max-width: 700px)" 
+                srcset="./static/images/tech-marketing-small.jpeg"
+                >
+
+                <img src="./static/images/tech-marketing.jpeg" alt="Analytics">
+
+            </picture>
 
             <h3>Tech Marketing</h3>
             
@@ -81,19 +120,25 @@
 
     </section>
 
-    <section>
+    <section class="sect-C">
 
-        <h2>We handle all of your digital needs</h2>
+        <div class="content">
 
-        <p>
+            <h2>We handle all of your digital needs</h2>
 
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat cupiditate, dolore eius! Minus, explicabo.
+            <p>
+    
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat cupiditate, dolore eius! Minus, explicabo.
+    
+            </p>
 
-        </p>
+        </div>
+
+        
 
     </section>
 
-    <section>
+    <section class="sect-D">
 
         <div>
 
@@ -132,7 +177,7 @@
 
         <div>
 
-            <p>Project By <a href="#">Traversy Media</a></p>
+            <p>Project By <a href="https://www.traversymedia.com/">Traversy Media</a></p>
 
         </div>
 
